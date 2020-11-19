@@ -1,7 +1,61 @@
-h1{
-    color: blueviolet;
-    padding-right: 10%;
-    padding-right: 20%;
-    background-color: burlywood;
-    border: 20px outset grey;
+#one{
+    float: right;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    background: #3d3838;
+    font font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.comtainer{
+    width: 1200px;
+    min-height: 70px;
+    background: #15105c;
+    margin: 90px auto 0;
+    display: flex;
+    flex-direction: row;
+    flex word-wrap: wrap;
+}
+.container .cell{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background: #da0d28;
+    margin: 7px;
+    box box-sizing: border-box;
+    display: inline;
+}
+.container .cell .cell1{
+    position: relative;
+}
+.container .cell .cell1 img{
+    max-width: 150px;
+}
+.container .cell:hover .cell1 img{
+    transform: scale(1.5);
+}
+.container .cell .insight{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    bottom: 15px;
+    right: 15px;
+    color: #f3f2f2;
+}
+.container .cell .cell2{
+    position: relative;
+}
+.container .cell .cell2 img{
+    max-width: 150px;
+}
+.container .cell:hover .cell2 img{
+    transform: scale(1.5);
+}
+.container .cell .detail{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    bottom: 15px;
+    right: 15px;
+    color: #f3f2f2;
 }
